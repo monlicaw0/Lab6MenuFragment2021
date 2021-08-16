@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#FFAB91"
+    tools:context=".ThreeFragment">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is Fragment Three"
+        android:layout_marginBottom="10dp"
+        android:layout_above="@id/btnClickFragThree"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnClickFragThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Me"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:background="#80DEEA"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>
